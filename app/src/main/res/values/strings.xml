@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Currency Converter</string>
+    <string name="screen_title">Currency Converter</string>
+    <string name="screen_subtitle">Live daily rates, cached for offline use</string>
+
+    <string name="label_from">From</string>
+    <string name="label_to">To</string>
+    <string name="label_amount">Amount</string>
+    <string name="label_converted_amount">Converted amount</string>
+    <string name="hint_base_currency">Base currency</string>
+    <string name="hint_target_currency">Target currency</string>
+    <string name="hint_search_currency">Search code, name or symbol</string>
+    <string name="hint_amount">0.00</string>
+    <string name="no_currencies_found">No currencies found</string>
+
+    <string name="swap_currencies">Swap currencies</string>
+    <string name="content_description_base_currency">Select base currency</string>
+    <string name="content_description_target_currency">Select target currency</string>
+    <string name="content_description_dropdown">Show currency list</string>
+
+    <string name="todays_rate">Today\'s Rate</string>
+    <string name="rate_loading">Fetching rate…</string>
+    <string name="rate_placeholder">1 %1$s = — %2$s</string>
+    <string name="rate_format">1 %1$s = %2$s %3$s</string>
+    <string name="rate_format_inverse">1 %1$s = %2$s %3$s</string>
+
+    <string name="status_live">Live rate</string>
+    <string name="status_cached">Cached rate</string>
+    <string name="status_offline">Offline — Cached rates</string>
+    <string name="status_loading">Loading…</string>
+    <string name="status_updated_prefix">Updated %1$s</string>
+    <string name="status_source_frankfurter">Frankfurter</string>
+    <string name="status_source_exchangerate">ExchangeRate-API</string>
+
+    <string name="error_title">Unable to load rate</string>
+    <string name="error_message_default">Check your internet connection and try again.</string>
+    <string name="error_same_currency">Base and target currencies must be different.</string>
+    <string name="error_invalid_pair">This currency pair is not supported by the rate provider.</string>
+    <string name="retry">Retry</string>
+    <string name="conversion_empty">Enter an amount</string>
+    <string name="empty_value">—</string>
+    <string name="conversion_hint">Converted value updates as you type</string>
+
+    <string name="cache_age_just_now">just now</string>
+    <string name="cache_age_minutes">%1$d min ago</string>
+    <string name="cache_age_hours">%1$d h ago</string>
+    <string name="cache_age_days">%1$d d ago</string>
+    <string name="cache_note">Rates refresh automatically and stay available offline for 24 hours.</string>
+</resources>
